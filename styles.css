@@ -1,0 +1,29 @@
+.container {
+	display: flex;
+	border: 3px solid rgb(83, 99, 115);
+	background: lightslategray;
+	width: 70vw;
+	flex-direction: column;
+	align-items: center;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	color: lightgray;
+}
+
+.friend {
+	background-color: lightcyan;
+	border-radius: 10px;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+.friend > h3 {
+	text-transform: uppercase;
+}
